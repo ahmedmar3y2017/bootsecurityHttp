@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:insert="fragments/header.html :: headerfiles">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<header th:insert="fragments/header.html :: nav"></header>
+
 <h1>Create a Person:</h1>
 
 <!--
